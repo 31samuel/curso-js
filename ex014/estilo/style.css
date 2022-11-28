@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(0, 102, 255, 0.425);
+    font: 20px arial bold normal;
+    text-align: center;
+}
+section{
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 60px black;
+    text-align: center;
+   
+}

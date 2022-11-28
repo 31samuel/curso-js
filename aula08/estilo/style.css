@@ -1,0 +1,22 @@
+
+div#area{
+    font:normal 20pt arial;
+    background: rgb(42, 139, 42);
+    color:white;
+    width: 200px;
+   height: 200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   line-height: 200px;
+   text-align: center;
+   border: 1px solid;
+   border-top: 10px  solid black;
+   cursor: pointer;
+   border-left: 10px solid red;
+   border-right: 10px solid blue;
+   border-bottom: 10px solid yellow;
+   text-decoration: underline yellow 3px;
+   
+ }

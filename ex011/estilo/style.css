@@ -1,0 +1,31 @@
+body{
+    background-color:rgba(3, 78, 162, 0.51);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    color: rgba(0, 0, 255, 0.767);
+    font: 30pt arial normal ;
+}
+input{
+
+    margin-top:-50px;
+}
+input[type="number"]{
+    padding: 10px;
+    font: 20px arial bold;
+    cursor: pointer;
+}
+input[type="button"]{
+    padding: 10px;
+    font: 20pt arial bold normal
+    ;
+    cursor: pointer;
+}
+ #res{
+    font: 20pt arial bold normal;
+    margin-top: 20px;
+    color:black;
+}
