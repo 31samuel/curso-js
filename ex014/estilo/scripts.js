@@ -7,5 +7,13 @@ if (fano.value.length == 0 || fano.value > ano){
    window.alert("[ERRO] Verifique os dados e tente novamnete")
 }else{
   var fsex = document.getElementsByTagName("radsex")
+  var idade = ano - Number(fano.value)
+ var genero = ""
+  if (fsex[0].checked){
+   genero = "HOMEM"
+  }else if (fsex[1].checked){
+   genero = "mulher"
+  }
+  res.innerHTML = "Detectamos" +genero  
 }
 }
