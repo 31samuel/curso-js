@@ -6,6 +6,6 @@ var res = document.querySelector("div#res")
 if (fano.value.length == 0 || fano.value > ano){
    window.alert("[ERRO] Verifique os dados e tente novamnete")
 }else{
-   window.alert("tudo ok")
+  var fsex = document.getElementsByTagName("radsex")
 }
 }
