@@ -10,10 +10,10 @@ if (fano.value.length == 0 || fano.value > ano){
   var idade = ano - Number(fano.value)
  var genero = ""
   if (fsex[0].checked){
-   genero = "HOMEM"
+   genero = "homem"
   }else if (fsex[1].checked){
    genero = "mulher"
   }
-  res.innerHTML = "Detectamos" +genero  
+ res.innerHTML = "detectamos   + genero + idade"
 }
 }
