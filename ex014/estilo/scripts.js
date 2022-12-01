@@ -1,19 +1,16 @@
 function verificar(){
-var data = new Date()
-var ano = data.getFullYear()
-var fano = document.getElementById("txtano")
-var res = document.querySelector("div#res")
-if (fano.value.length == 0 || fano.value > ano){
-   window.alert("[ERRO] Verifique os dados e tente novamnete")
-}else{
-  var fsex = document.getElementsByTagName("radsex")
-  var idade = ano - Number(fano.value)
- var genero = ""
-  if (fsex[0].checked){
-   genero = "homem"
-  }else if (fsex[1].checked){
-   genero = "mulher"
-  }
- res.innerHTML = "detectamos   + genero + idade"
-}
+    var data = new Date()
+    var ano = data.getFullYear()
+    var fano = document.getElementById("txtano")
+    var res = document.getElementById("res")
+    if (fano.value.length == 0 || fano.value > ano ){
+        window.alert("[ERRO] verifique os dados e tente novamnete!")
+    }else{
+        window.alert("tudo OK")
+        var fsex = document.getElementsByTagName("radsex")
+        var idade = ano - Number(fano.value)
+        res.innerHTML ="idade calculada" +idade +("anos")
+        res.style.padding = "20px"
+        res.style.marginLeft = "80px"
+    }
 }
