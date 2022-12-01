@@ -33,9 +33,7 @@ function verificar(){
             img.setAttribute("src" , "adulto.png")
             res.innerHTML = "Detectamos adulto" +("com")+("com") +idade 
           +("anos")
-           img.style.width ="200px"
-           img.style.margin = "40px"
-           img.style.justifyItems="center"
+    
         }else{
             //idoso
             img.setAttribute("src" , "idoso.png")
@@ -47,10 +45,21 @@ function verificar(){
         genero = "mulher"
         if(idade >=0 && idade < 10){
             //criança
+            img.setAttribute("src" , "bebe 2 anos.png")
+            res.innerHTML = "Detectamos bebe" +("com") +idade 
+          +("anos")
+        
         }else if (idade < 21){
             //jovem
+            img.setAttribute("src" , "joven-mulher.png")
+            res.innerHTML = "Detectamos uma mulher joven" +("com") +idade 
+          +("anos")
+       
         }else if (idade < 50){
             //adulta
+            img.setAttribute("src" , "adulta.png")
+            res.innerHTML = "Detectamos uma mulher adulta" +("com") +idade 
+          +("anos")
         }else{
             //idosa
         }
