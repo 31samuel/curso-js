@@ -9,8 +9,10 @@ function verificar(){
         window.alert("tudo OK")
         var fsex = document.getElementsByTagName("radsex")
         var idade = ano - Number(fano.value)
-        res.innerHTML ="idade calculada" +idade +("anos")
+        res.innerHTML ="idade calculada"  +idade +("anos")
         res.style.padding = "20px"
-        res.style.marginLeft = "80px"
+        res.style.background = "blue"
+        res.style.color = "#fff"
+        res.style.fontSize = "30px"
     }
 }
