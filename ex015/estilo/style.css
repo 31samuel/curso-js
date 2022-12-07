@@ -12,6 +12,9 @@ div{
 }
 h1{
     font: 30pt normal arial bolder;
+    height: 100px;
+    width: 200px;
+    background-color: #8080807c;
     
 }
 button{
@@ -19,5 +22,10 @@ button{
     font: 20pt normal bold;
     background-color: #8080807c;
     margin: 10px;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+button:hover{
+    background-color:#808080f5; 
     
 }
