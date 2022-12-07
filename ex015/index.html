@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>JS calculo</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
-    <div>
-    <h1>Soma</h1>
-   
-    <button onclick="clike()">7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>4</button>
-    <button>9</button>
-    <button>5</button>
-    <button>9</button>
-    <button>6</button>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>0</button>
-    <button>+</button>
-    <button>x</button>
-    <button>,</button>
-    
-</div>
-    <script src="estilo/scripts.js"></script>
+    <div id="calc">
+        <h3>Calculadora</h3>
+        <div id="operations">
+            <div id="previous-operations">123 +</div>
+           <div id="current-operations">412</div>
+    </div>
+    </div>
+     <div id="buttons-container"></div>
+     <button>CE</button>
+     <button>C</button>
+     <button>DEL</button>
+     <button>/</button>
+     <button class="nunber">7</button>
+     <button class="nunber">8</button>
+     <button class="nunber">9</button>
+     <button>*</button>
+     <button class="nunber">4</button>
+     <button class="nunber">5</button>
+     <button class="nunber">6</button>
+     <button>-</button>
+     <button class="nunber">1</button>
+     <button class="nunber">2</button>
+     <button class="nunber">3</button>
+     <button>+</button>
+     <button class="nunber">0</button>
+     <button class="nunber">.</button>
+     <button id="equal-btn">=</button>
+    <script src="estilo/scripts.js" defer></script>
 </body>
 </html>

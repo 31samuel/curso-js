@@ -1,31 +1,12 @@
-body{
-    background-color: #fff;
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  Helvetica;
 }
-div{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50% , -50%); 
-}
-h1{
-    font: 30pt normal arial bolder;
-    height: 100px;
-    width: 200px;
-    background-color: #8080807c;
-    
-}
-button{
-    padding: 60px;
-    font: 20pt normal bold;
-    background-color: #8080807c;
-    margin: 10px;
-    justify-content: space-around;
-    border-radius: 50%;
-}
-button:hover{
-    background-color:#808080f5; 
-    
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
