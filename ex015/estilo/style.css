@@ -1,3 +1,22 @@
 body{
-    background-color: rgba(255, 255, 0, 0.575);
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%); 
+}
+h1{
+    font: 30pt normal arial bolder;
+    
+}
+button{
+    padding: 60px;
+    font: 20pt normal bold;
+    background-color: #8080807c;
+    margin: 10px;
 }
