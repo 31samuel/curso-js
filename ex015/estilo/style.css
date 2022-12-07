@@ -9,4 +9,38 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3em;
+}
+#calc{
+    width: 400px;
+    padding: .5em;
+    background-color: #c4c4c4;
+    color:#000 ;
+    display: flex;
+    flex-direction: column;
+}
+#calc h3{
+    font-size: .8em;
+    font-weight: 300;
+    color: #666;
+
+}
+#operation{
+    text-align: right;
+}
+#previous-operation
+#current-operation{
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+}
+
+#previous-operation {
+    color: #555;
+    overflow-wrap: break-word;
+}
+#current-operation{
+    font-size: 3em;
+    font-weight: 700;
+    overflow-wrap: break-word;
 }
