@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   background-color: rgba(255, 0, 0, 0.425);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  
+}
+h1{
+    color: #fff;
+ transform: translate(30%);
+ font: 3em arial bold;
+}
+input{
+    border: none;
+    border: 1px solid;
+    border-radius: 50px #fff;
+}
+input[type="Number"]{
+    padding: 10px;
+    margin: 10px;
+   
+  
+}
+#txtn1 {
+    font-size: 20px;
+}
+#txtn2{
+    font-size: 20px;  
+}
+input[Type="button"]{
+    padding: 10px;
+    font: 20px arial bold;
+}
+ #res{
+    margin-top: 10px;
+    font: 20px bold arial;
+    border: 1px solid;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px solid black;
+    overflow: hidden;
+    
+
+}
