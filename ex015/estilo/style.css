@@ -17,12 +17,16 @@ header,footer{
 }
 section{
     background-color: #fff;
-    height: 100px;
+    padding: 15px;
     width: 500px;
     border: 1px solid aqua;
     border-radius: 13px;
-   font: 15pt arial normal;
-   box-shadow: 2px 3px 3px #000;
+    font: 15pt arial normal;
+   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.555);
+}
+select#flista{
+    width: 150px;
+    margin: 10px 0px 0px 0px;
 }
 div{
     margin: 10px;
