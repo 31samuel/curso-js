@@ -12,12 +12,33 @@ body{
 }
 header,footer{
     text-align: center;
+    font-style: italic;
+    color: #fff;
 }
 section{
     background-color: #fff;
     height: 100px;
     width: 500px;
-   border: 1px solid aqua;
-   border-radius: 13px;
- 
+    border: 1px solid aqua;
+    border-radius: 13px;
+   font: 15pt arial normal;
+   
+}
+div{
+    margin: 10px;
+
+}
+input[type="number"]{
+    padding: 6px;
+}
+input[TYPE="button"]{
+    padding: 6px;
+    outline: 0;
+}
+
+footer{
+    margin: 10px;
+   font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
 }
