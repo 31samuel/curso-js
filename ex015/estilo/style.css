@@ -32,6 +32,10 @@ div{
     margin: 10px;
 
 }
+input{
+    margin: 10px 0px 0px 0px ;
+   
+}
 input[type="number"]{
     padding: 6px;
 }
